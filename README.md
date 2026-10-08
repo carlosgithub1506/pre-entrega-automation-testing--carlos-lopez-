@@ -33,3 +33,10 @@ pytest
 ```
 
 Se abrira Chrome y se ejecutara¡n las 8 pruebas. Al finalizar, el navegador se cerrara¡ y los resultados apareceran en la terminal.
+
+
+## Reporte de pruebas
+
+Al ejecutar `pytest`, se genera el archivo `reporte.html` con los resultados de las pruebas. En la ejecución mostrada, las 8 pruebas pasaron correctamente.
+
+![Reporte de pruebas](img/reporteHtml.png)

@@ -44,7 +44,6 @@ def test_02_verificar_inventario(driver):
 def test_03_productos_visibles(driver):
 
     inventory_item = driver.find_elements(By.CLASS_NAME, 'inventory_item')
-    # [] len() => ver que tan largo es una lista
     assert len(inventory_item) > 0 , f'ERROR: No se encontraron productos visibles'
 
     
